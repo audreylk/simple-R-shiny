@@ -76,6 +76,7 @@ RUN apt-get update && apt-get install -y -t unstable \
     libcairo2-dev/unstable \
     libxt-dev \
     libnss-wrapper \
+    libxml2-dev \
     gettext $SYS_LIBS
 
 # --------------------------------------------------------
